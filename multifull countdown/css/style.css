@@ -1,0 +1,13 @@
+/* multipull time count */
+.time-count {
+    display: inline-block;
+    margin: 10px;
+    background: aliceblue;
+    font-size: 26px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.time-count span {
+    color: coral;
+}

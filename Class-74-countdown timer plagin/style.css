@@ -1,0 +1,92 @@
+html,body{
+  height: 100%;
+  width: 100%;
+}
+
+.welcome-area{
+  background-image: url(img/count-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-color: #ddd;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  display: table;
+  position: relative;
+  z-index: 2;
+  opacity: 1;
+}
+
+.welcome-area::after{
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  content: '';
+  background-color: #000;
+  z-index: -1;
+  opacity: .5;
+}
+
+.welcome-area-inner{
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  color: #fff;
+}
+
+.welcome-area-inner h2{
+  font-size: 50px;
+  font-weight: 400;
+}
+
+.welcome-area-inner h3{
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.email-subscribe-form{
+  width: 400px;
+  margin: 40px auto;
+}
+
+.email-subscribe-form input{
+  width: 100%;
+  border: none;
+  padding: 20px;
+  border-radius: 50px;
+  font-style: italic;
+}
+
+.email-subscribe-form input[type=submit]{
+  background-color: #ffce44;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-style: normal;
+  margin-top: 15px;
+}
+
+/* main.js area */
+
+.countdown-wrap{
+  color: #FFFFFF;
+}
+
+.single-countdown-item{
+  font-size: 80px;
+  line-height: 40px;
+  text-align: center;
+  padding: 20px;
+}
+
+.single-countdown-item span{
+  font-size: 18px;
+  line-height: 30px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.single-countdown-item{
+  display: inline-block;
+}
